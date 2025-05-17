@@ -1,0 +1,36 @@
+tags
+
+opening tag <h1>
+closing tag </h1>
+self closing tag <br />
+
+element / markup
+
+<h1>Hello world</h1>
+<h1>hello world </h1>
+
+
+
+
+
+
+
+
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h1>Hello world</h1>
+</body>
+</html>
+
+
+
+
+
+Attribute tags ko extra information dena
+<h1 id="head">Hello world</h1>
+
+
+
