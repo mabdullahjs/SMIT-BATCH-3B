@@ -1,0 +1,45 @@
+/* #heading-one{
+    color: bisque;
+}
+
+.heading {
+  color: aqua;
+}
+
+h1 {
+  color: purple !important;
+}
+
+* {
+  color: red;
+} */
+
+
+.container{
+    color: red;
+    font-size: 50px;
+    border: 1px solid black;
+}
+
+h1{
+    border: inherit;
+}
+
+
+/* Property	Description
+color	Text color
+font	Shorthand for setting multiple font props
+font-family	Font typeface
+font-size	Size of the font
+font-style	Italic, normal, etc.
+font-variant	Small-caps, normal
+font-weight	Boldness of the font
+letter-spacing	Space between letters
+line-height	Space between lines of text
+text-align	Alignment of text (left, right, center)
+text-indent	Indentation of the first line of text
+text-transform	Capitalization (uppercase, lowercase)
+visibility	Visibility (visible, hidden)
+white-space	How white space inside an element is handled
+word-spacing	Space between words
+direction	Text direction (ltr, rtl) */

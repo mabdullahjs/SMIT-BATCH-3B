@@ -1,0 +1,31 @@
+/* * {
+  color: red;
+} */
+
+/* h1 , p {
+    color: red;
+} */
+/* #heading-two{
+    color: red;
+}
+.heading{
+    color: peru;
+} */
+
+/* .main-list > li{
+    color: red;
+} */
+
+.first-parent > p {
+    color: red;
+}
+
+/* .second-parent p {
+    color: purple;
+}
+.heading ~ p {
+    color: pink;
+} */
+/* .heading + p {
+    color: pink;
+} */
