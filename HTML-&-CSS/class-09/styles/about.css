@@ -16,13 +16,17 @@ h1 {
 
 
 .container{
-    color: red;
+    /* color: red; */
     font-size: 50px;
     border: 1px solid black;
 }
 
 h1{
     border: inherit;
+}
+
+.firstparent p{
+    color: red;
 }
 
 
