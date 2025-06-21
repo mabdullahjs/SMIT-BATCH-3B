@@ -1,0 +1,28 @@
+/* body {
+    background-color: red;
+    opacity: 1;
+}
+h1 {
+    color: #ffffff;
+    background-color: #00bcff;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #bfc0c0;
+}
+.heading{
+    background-color: #e2e3e2;
+}
+.fourteen{
+    background-color: #3184c5;
+    color: #ffffff;
+}
+.thirteen{
+    background-color: #2692d0;
+    color: #ffffff;
+}
