@@ -1,0 +1,106 @@
+/* units */
+
+
+/* relative units
+%
+em
+rem
+
+*/
+/* absolute units 
+px
+vw
+vh
+
+*/
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* .parent{
+    border: 2px solid black;
+    width: 50%;
+
+}
+
+.children{
+    border: 1px solid red;
+    width: 50%;
+
+} */
+
+
+/* 
+.parent{
+    border: 2px solid black;
+    width: 50vw;
+    height: 200vh;
+
+}
+
+.children{
+    border: 1px solid red;
+    width: 80vw;
+
+} */
+
+
+/* h1 {
+    font-size: 64px;
+}
+
+p{
+    font-size: 32px;
+} */
+
+
+/* em 16px ==> 1em apna parent ka hisaab sa chalt ha */
+/* html {
+    font-size: 32px;
+}
+
+.parent{
+    font-size: 25px; 
+}
+
+p{
+    font-size: 2rem;
+} */
+
+
+
+
+/* conclusion: 
+
+fontsize ==> rem
+width ==> %
+border ==> px
+padding, margin ==> px */
+
+
+/* html ==> 16px 100% */
+/* html ==> 10px 62.5% */
+
+
+
+/* 50px 10px 40px 1rem == 16px */
+
+
+/* html {
+    font-size: 62.5%; 
+} */
+
+/* 16px  == 100%  10 */
+
+/* 1rem == 10px  4rem 2.5rem*/
+
+/* .outside-parent{
+    font-size: 64px;
+}
+
+.parent-para{
+    font-size: 4rem;
+} */

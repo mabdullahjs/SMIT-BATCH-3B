@@ -11,7 +11,7 @@ p{
 
 
 
-@font-face {
+/* @font-face {
     font-family: WDXLLubrifont;
     src: url("../fonts/font-1/WDXLLubrifontJPN-Regular.ttf");
 }
@@ -26,4 +26,22 @@ html {
 }
 p{
     font-family: sevillana;   
+} */
+
+
+@font-face {
+    font-family: sevillana;
+    src: url("../fonts/font-2/Sevillana-Regular.ttf");
+}
+@font-face {
+    font-family: savate;
+    src: url("../fonts/font-3/Savate-VariableFont_wght.ttf");
+}
+
+html {
+    font-family: savate;
+}
+
+p{
+    font-family: sevillana;
 }
