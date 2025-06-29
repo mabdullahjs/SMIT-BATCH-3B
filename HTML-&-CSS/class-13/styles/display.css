@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+/* block inline inline-block none */
+
+h1 {
+    display: inline;
+    width: 500px;
+    height: 100px;
+    margin: 500px 20px;
+}
+
+
+a{
+    display: block;
+
+}
+
+img {
+    display: none;
+    /* visibility: hidden; */
+    width: 200px;
+    height: 200px;
+}

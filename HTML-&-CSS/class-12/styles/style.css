@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    /* font-style: normal; */
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: line-through;
+    color: black;
+}
+
+p{
+    /* line-height: 50px;
+    word-spacing: 40px;
+    letter-spacing: 20px; */
+    text-align: justify;
+    /* text-indent: -40px; */
+    /* text-shadow: 8px 4px 5px rgba(255,0,0,1);
+     */
+     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}

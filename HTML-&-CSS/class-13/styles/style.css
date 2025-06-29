@@ -1,0 +1,42 @@
+p:first-letter{
+    font-size: 5rem;
+}
+h1:first-letter{
+    font-size: 5rem;
+    /* color: red; */
+}
+
+p:first-line{
+    font-size: 2rem;
+    color: blue;
+}
+
+a:link{
+    color: green;
+    text-decoration: none;
+}
+
+a:visited{
+    color: saddlebrown;
+}
+
+h1:hover{
+    background-color: red;
+    color: white;
+}
+
+button {
+    background-color: rgb(114, 220, 255);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 150, 255);
+    color: #ffffff;
+}
+
+/* :active, :focus Attribute Selectors */
