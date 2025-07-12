@@ -1,0 +1,38 @@
+/* body {
+    background-image: url("https://images.unsplash.com/photo-1548890232-88737d2917c4?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+     background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+ul {
+   list-style-type: circle; 
+  list-style-image: url("https://www.w3schools.com/cssref/sqpurple.gif");
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+}
+
+table {
+   background-color: lightblue; 
+   empty-cells: hide; 
+   border-spacing: 5px; 
+  border-collapse: collapse;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/401/677/small_2x/abstract-polygonal-shape-black-background-free-vector.jpg");
+  color: white;
+}
+
+ table:hover {
+    border: 1px solid black;
+} 
+
+th , td {
+    border: 1px solid black;
+}
+
+th {
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-bottom: 2px solid #111111;
+  border-top: 1px solid #999;
+} */

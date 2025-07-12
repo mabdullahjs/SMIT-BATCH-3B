@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* css selectors (class,id,universal)
+inheritance
+precidence
+@font-face (changing fontfamily)
+units (font => rem , width,height => %, border,padding,margin => px)
+CSS box model
+box-sizing */
