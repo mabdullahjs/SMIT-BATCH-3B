@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* positions
+static
+relative
+absolute
+fixed
+sticky
+z-index
+
+*/
+
+.container {
+    border: 1px solid black;
+    width: 800px;
+    height: 3800px;
+    margin: 0 auto;
+    margin-bottom: 3200px;
+}
+
+.children {
+    width: 200px;
+    height: 200px;
+}
+
+#red{
+    background-color: red;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+#green{
+    background-color: green;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+#blue{
+    background-color: blue;
+    position: fixed;
+    right: 20px;
+}
+#yellow{
+    background-color: yellow;
+    position: sticky;
+    top: 80px;
+}
