@@ -1,0 +1,20 @@
+.container {
+    border: 5px solid black;
+    height: 800px;
+
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    /* column-gap: 10px; */
+}
+
+.children {
+    background-color: rgb(210, 165, 165);
+    color: white;
+    padding: 20px;
+}
