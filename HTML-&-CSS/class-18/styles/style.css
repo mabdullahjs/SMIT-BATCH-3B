@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root{
+    --black: #000000;
+    --white: #FFFFFF;
+    --red: #ed1c24;
+    --green: #28a745;
+    --gray: #0f0f0f
+}
+
+@font-face {
+    font-family: inter;
+    src: url("../assets/fonts/inter/Inter.ttf");
+}
+
+@font-face {
+    font-family: apercu;
+    src: url("../assets/fonts/Apercu/Apercu-regular.otf");
+}
+
+@font-face {
+    font-family: futurak;
+    src: url("../assets/fonts/futurak/futurak.ttf");
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: inter;
+}
+
+
+/* navbar started */
+.main-logo{
+    width: 165px;
+}
+.nav-items > a {
+    color: var(--white);
+    font-size: 1.9rem;
+    text-decoration: none;
+}
+
+.nav-items > button {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.nav-items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.franchise-btn{
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.order-btn{
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    padding: 12px 17px;
+    border-radius: 30px;
+}
+
+.order-icon{
+    color: var(--red);
+    background-color: var(--white);
+    padding: 5px 6px;
+    border-radius: 25px;
+}
+/* navbar ended */
+
+/* slider image started */
+
+.slider-image {
+    width: 100%;
+}
+/* slider image ended */
+
+/* our brand started */
+.our-brand {
+    margin: 50px;
+}
+.our-brand > h2 {
+    font-family: apercu;
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 100;
+}
+.futurak-font{
+    font-family: futurak;
+    font-size: 5rem;
+}
+.our-brand > p{
+    margin: 20px 0px;
+    text-align: center;
+    color: #ffffffb3;
+    font-size: 1.2rem;
+}
+.brand-image{
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 10px;
+}
+.brands-children{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.brands-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.ourbrands-btn{
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: var(--white);
+    border: 1px solid #4d4d4d;
+    padding: 15px 40px;
+    border-radius: 20px;
+
+}
+/* our brand ended */

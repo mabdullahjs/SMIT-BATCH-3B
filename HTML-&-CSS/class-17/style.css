@@ -1,0 +1,21 @@
+.container{
+    border: 1px solid black;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    height: 150px;
+    flex-wrap: wrap;
+}
+.children {
+    border: 1px solid red;
+}
+
+#box-1{
+    flex-grow: 1;
+}
+#box-2{
+    flex-grow: 1;
+}
+#box-3{
+    flex-grow: 4;
+}
