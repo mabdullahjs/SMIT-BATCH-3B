@@ -1,0 +1,60 @@
+/* media query */
+
+body {
+  background-color: black;
+  color: white;
+}
+
+
+/* 
+@media (max-width: 1000px) {
+  body {
+    background-color: purple;
+    color: white;
+  }
+}
+
+@media(max-width: 500px) {
+    body {
+        background-color: orangered;
+    }
+} */
+
+
+/* 
+img {
+    width: 165px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+.menu{
+    font-size: 1.5rem;
+    display: none;
+}
+
+@media(max-width: 820px){
+    .menu {
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+    .parent {
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+} */
+
+
+
+/* utility classes */
