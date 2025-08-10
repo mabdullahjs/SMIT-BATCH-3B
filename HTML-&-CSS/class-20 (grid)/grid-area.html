@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid area</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            border: 2px solid black;
+            height: 100vh;
+
+            display: grid;
+            grid-template-areas:
+                "header header header"
+                "sidebar content-one content-one"
+                "sidebar content-two content-three"
+                "footer footer footer"
+            ;
+            grid-template-rows: 1fr 3fr 3fr 3fr;
+        }
+
+        .children {
+            border: 1px solid red;
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        #header {
+            grid-area: header;
+            align-content: center;
+        }
+
+        #sidebar {
+            grid-area: sidebar;
+            align-content: center;
+        }
+
+        #content-1 {
+            grid-area: content-one;
+            align-content: center;
+        }
+
+        #content-2 {
+            grid-area: content-two;
+            align-content: center;
+        }
+
+        #content-3 {
+            grid-area: content-three;
+            align-content: center;
+        }
+
+        #footer {
+            grid-area: footer;
+            align-content: center;
+        }
+        @media(max-width: 850px){
+            .container {
+                grid-template-areas: 
+                "header header"
+                "sidebar sidebar"
+                "content-one content-one"
+                "content-two content-three"
+                "footer footer"
+                ;
+                 grid-template-rows: 2fr 3fr 3fr 3fr 3fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="children" id="header">header</div>
+        <div class="children" id="sidebar">sidebar</div>
+        <div class="children" id="content-1">content-1</div>
+        <div class="children" id="content-2">content-2</div>
+        <div class="children" id="content-3">content-3</div>
+        <div class="children" id="footer">footer</div>
+    </div>
+</body>
+
+</html>
