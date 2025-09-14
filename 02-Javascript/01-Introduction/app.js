@@ -102,3 +102,7 @@
 
 
 
+var firstName = "Muhammad"
+var lastName = "Abdullah"
+
+console.log(firstName + " " + lastName);
