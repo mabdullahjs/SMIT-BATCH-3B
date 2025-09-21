@@ -205,8 +205,34 @@
 
 
 
+var age = 12;
+var country = "Pakistan";
+var ban = false;
+
+
+
+// if(age >= 18 && age <= 35 && (country === "Pakistan" || country === "India") && !ban){
+//     console.log("eligible");
+    
+// } else {
+//     console.log("not eligible");
+    
+// }
 
 
 
 
 
+// if(age >= 18 && age <= 35){
+//     if(!ban && (country === "Pakistan" || country === "India")){
+//         console.log("eligible");
+//     } else {
+//         console.log("not eligible due to country or ban");
+        
+//     }
+    
+    
+// }else {
+//     console.log("not eligible");
+    
+// }
