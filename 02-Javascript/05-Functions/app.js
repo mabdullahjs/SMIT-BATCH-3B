@@ -110,9 +110,107 @@
 
 // console.log(username);
 
-function greetUser(username) {
-  console.log("hello " + username);
-}
+// function greetUser(username) {
+//   console.log("hello " + username);
+//   return "hello " + username
+// }
 
-greetUser("abdullah")
+// greetUser("abdullah")
 // console.log(greetUser("abdullah"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function greetUser(username){
+//     console.log("hello " + username);
+//     return "hello " + username
+    
+// }
+
+// let greetings = greetUser("abdullah")
+// console.log(greetings);
+
+
+// console.log(greetUser("usman"));
+
+
+// const heading = document.querySelector("#head");
+// heading.innerHTML = "Changed through js"
+// // console.log(heading.innerHTML);
+
+
+
+
+// const p = document.querySelector(".para");
+
+// p.innerHTML = "testing para"
+
+
+
+// const heading = document.querySelector("h1");
+
+// heading.innerHTML = "hellow"
+
+
+// function testing(){
+//     console.log("hello world");
+    
+// }
+
+
+
+// const input = document.querySelector("#input");
+
+
+// function getVal(){
+//     console.log(input.value);
+    
+// }
+
+
+// const heading = document.querySelector("#state");
+// const btn = document.querySelector("#btn");
+
+// function changeState(){
+//     console.log(heading.innerHTML);
+//     console.log(btn.innerHTML);
+
+//     if(heading.innerHTML === "Onn"){
+//         heading.innerHTML = "Off"
+//         btn.innerHTML = "Turn on"
+//     } else {
+//         heading.innerHTML = "Onn"
+//         btn.innerHTML = "Turn off"
+//     }
+    
+// }
+
+
+// const input = document.querySelector("#input");
+// const result = document.querySelector("#result");
+
+// function greetuser(){
+//     console.log(input.value);
+//     result.innerHTML = "Hello " + input.value
+
+
+//     input.value = ""
+    
+// }
+
+
+// function clearScreen(){
+//     result.innerHTML = ""
+// }
