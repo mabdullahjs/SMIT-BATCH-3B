@@ -214,3 +214,25 @@
 // function clearScreen(){
 //     result.innerHTML = ""
 // }
+
+
+
+
+// const head = document.querySelector("#head");
+
+// head.innerHTML = "change through javascript"
+
+
+const input = document.querySelector("#input");
+
+
+function testing(){
+    console.log(input.value);
+    
+}
+
+
+
+
+// input sa value leka neecha screen pa print krna ha
+// button ka click pa turn off and turn onn krna ha
