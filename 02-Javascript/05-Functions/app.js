@@ -218,21 +218,33 @@
 
 
 
-// const head = document.querySelector("#head");
 
 // head.innerHTML = "change through javascript"
 
 
-const input = document.querySelector("#input");
+// const head = document.querySelector("#head");
+// const input = document.querySelector("#input");
 
 
-function testing(){
-    console.log(input.value);
+// function testing(){
+//     console.log(input.value);
+//     head.style.color = "white"
+//     head.style.backgroundColor = "red"
     
-}
+// }
 
 
 
 
 // input sa value leka neecha screen pa print krna ha
 // button ka click pa turn off and turn onn krna ha
+
+const body = document.querySelector("body")
+
+
+function changeColor(color){
+    console.log(color);
+    body.style.backgroundColor = color
+    
+
+}
