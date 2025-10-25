@@ -239,12 +239,12 @@
 // input sa value leka neecha screen pa print krna ha
 // button ka click pa turn off and turn onn krna ha
 
-const body = document.querySelector("body")
+// const body = document.querySelector("body")
 
 
-function changeColor(color){
-    console.log(color);
-    body.style.backgroundColor = color
+// function changeColor(color){
+//     console.log(color);
+//     body.style.backgroundColor = color
     
 
-}
+// }
