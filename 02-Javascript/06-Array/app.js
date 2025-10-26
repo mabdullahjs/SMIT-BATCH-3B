@@ -90,7 +90,9 @@ let fruits = ["apple", "mango", "banana", "strawberry", "cherry", "melon"];
 
 // console.log(username.split(" ").reverse().join(" "));
 
-// let arr1 = [1, 2, 3, 4, 5];
+let arr1 = [1, 2, 3, 4, 5];
+console.log(arr1);
+
 // let arr2 = [6, 7, 8, 9, 10];
 
 
