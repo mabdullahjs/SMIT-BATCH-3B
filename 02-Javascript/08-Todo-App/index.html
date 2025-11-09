@@ -1,17 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todo App</title>
+
+<style>
+    /* Reset some defaults */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+    }
+
+    body {
+        background: linear-gradient(135deg, #74ABE2, #5563DE);
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+        padding-top: 60px;
+    }
+
+    .container {
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        width: 90%;
+        max-width: 450px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 25px;
+    }
+
+    #input {
+        width: 70%;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        outline: none;
+        transition: 0.2s;
+    }
+
+    #input:focus {
+        border-color: #5563DE;
+        box-shadow: 0 0 5px rgba(85, 99, 222, 0.4);
+    }
+
+    button {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 6px;
+        background-color: #5563DE;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background 0.2s, transform 0.1s;
+    }
+
+    button:hover {
+        background-color: #3744c5;
+        transform: scale(1.03);
+    }
+
+    #addBtn {
+        margin-left: 10px;
+    }
+
+    ol {
+        margin-top: 20px;
+        list-style: none;
+        padding-left: 0;
+    }
+
+    li {
+        background: #f7f8ff;
+        padding: 12px 15px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.2s;
+    }
+
+    li:hover {
+        background: #eef0ff;
+    }
+
+    .actions button {
+        margin-left: 8px;
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    .delete-btn {
+        background-color: #e74c3c;
+    }
+
+    .delete-btn:hover {
+        background-color: #c0392b;
+    }
+
+    .edit-btn {
+        background-color: #f1c40f;
+        color: #333;
+    }
+
+    .edit-btn:hover {
+        background-color: #d4ac0d;
+    }
+</style>
 </head>
+
 <body>
-    <h1>hello todo</h1>
+    <div class="container">
+        <h1>Hello Todo</h1>
 
-    <input type="text" placeholder="enter todo" id="input">
-    <button onclick="addTodo()">add Todo</button>
+        <div class="input-area">
+            <input type="text" placeholder="Enter todo" id="input">
+            <button id="addBtn" onclick="addTodo()">Add Todo</button>
+        </div>
 
-    <ol id="ol"></ol>
+        <ol id="ol">
+            
+        </ol>
+    </div>
     <script src="./app.js"></script>
 </body>
 </html>

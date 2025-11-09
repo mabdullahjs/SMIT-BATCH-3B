@@ -13,10 +13,13 @@ const allTodos = [];
 function renderTodo() {
   ol.innerHTML = "";
   for (let i = 0; i < allTodos.length; i++) {
-    ol.innerHTML += `<li>${allTodos[i]}
-        <button onclick="deleteTodo(${i})">delete</button>
-        <button onclick="editTodo(${i})">edit</button>
-        </li>`;
+    ol.innerHTML += `<li>
+                ${allTodos[i]}
+                <div class="actions">
+                    <button class="delete-btn" onclick="deleteTodo(${i})">Delete</button>
+                    <button class="edit-btn" onclick="editTodo(${i})">Edit</button>
+                </div>
+            </li>`;
   }
 }
 function addTodo() {
@@ -39,3 +42,9 @@ function editTodo(index) {
 
   renderTodo()
 }
+
+
+// 20 problems
+
+
+
